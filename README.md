@@ -8,7 +8,7 @@ function dailyLog197() {
 
   const averageProgress =
     projects.reduce((sum, project) => sum + project.progress, 0) /
-    projects.length;
+    projects.lengt;
 
   const needsAttention = projects.filter(
     project => project.deadlineRisk || project.progress < 50
